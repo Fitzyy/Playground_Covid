@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Playground 2</string>
+    <string name="covid_19_alert">COVID-19 ALERT!</string>
+    <string name="please_wash_your_hands">Please wash your hands!</string>
+    <string name="you_should_also_wash_your_hands">You should also:
+        wash your hands with soap and water often – for at least 20 seconds
+        wash your hands as soon as you get home
+        cover your mouth and nose with a tissue or sleeve (not your hands) when you cough or sneeze
+        put used tissues in the bin immediately and wash your hands
+        not touch your eyes, nose or mouth if your hands are not clean.</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <!--    <com.airbnb.lottie.LottieAnimationView-->
+    <!--        android:layout_width="280dp"-->
+    <!--        android:layout_height="248dp"-->
+    <!--        app:lottie_autoPlay="true"-->
+    <!--        app:lottie_loop="true"-->
+    <!--        app:lottie_rawRes="@raw/heart_animation" />-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="59dp"-->
+    <!--        android:layout_marginStart="40dp"-->
+    <!--        android:layout_marginEnd="40dp"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="@string/i_love_you_sophie"-->
+    <!--        android:textColor="#212121"-->
+    <!--        android:textSize="18sp"-->
+    <!--        android:textStyle="bold" />-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="40dp"-->
+    <!--        android:layout_marginTop="8dp"-->
+    <!--        android:layout_marginEnd="40dp"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="@string/to_the_moon_baby"-->
+    <!--        android:textColor="#757575"-->
+    <!--        android:textSize="17sp"-->
+    <!--        android:textStyle="italic" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/covid_19_alert"
+        android:textAllCaps="true"
+        android:textColor="#d23f3f"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/wash_your_hands" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:gravity="center"
+        android:text="@string/please_wash_your_hands"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/you_should_also_wash_your_hands"
+      android:textAllCaps="true"
+      android:textStyle="bold"
+      android:textSize="14sp"
+      android:layout_marginStart="40dp"
+      android:layout_marginEnd="40dp"
+      android:gravity="center"
+      android:textColor="#d23f3f    "/>
+</LinearLayout>
